@@ -84,10 +84,7 @@ state of the store as its argument? Let's change our code to the following in
 // ./src/App.js
 ...
 
-const vanilla = (milkshake) => {
-  debugger;
-  return { items: milkshake.items }
-}
+
 
 export default connect(vanilla)(App);
 ```
